@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tu peso en otro planeta</title>
+    <script src="sweetalert2.js"></script>
+    <link rel="stylesheet" href="sweetalert2.css">
+    
+  </head>
+  <body>
+    
+    <h1>Aqui podras saber tu peso en otros planetas</h1>
+        <link rel="stylesheet" href="css.css">
+      <p>Solo debes colocar tu peso en KG y hacer click en calcular</p>
+      <span>Coloque su peso en KG</span>
+      <div><input type="number" name="" id="peso" value="0.0"></div>
+      <div class="boton">
+          <button id="btn" onclick="calcular()">CALCULAR</button>
+      </div>
+  <div class="container">
+          <div class="box">
+              <h3>SOL</h3>
+              <span class="gravedad">G: 273,70 m/s</span>
+              <br><img src="https://energyeducation.ca/wiki2develop/images/thumb/b/bd/9103296900_0d383feabf_z.jpg/360px-9103296900_0d383feabf_z.jpg",
+              width="163",
+              height="163"></br>
+              <span>Tu peso es:</span>
+              <input type=»text» id="1" readonly=»readonly» />
+          </div>      
+          <div class="box">
+              <h3>MERCURIO</h3>
+              <span class="gravedad">G: 3.7 m/s</span>
+              <br><img src="http://www.manzanares.es/v2/sites/paseo/img/mercurio/Mercurio4.jpg",
+              width="163",
+              height="163"></br>
+              <span>Tu peso es:</span>
+              <input type=»text» id="2" readonly=»readonly» />
+          </div>
+          <div class="box">
+              <h3>VENUS</h3>
+              <span class="gravedad">G: 8.87 m/s</span>
+              <br><img src="https://nexpanama.com/wp-content/uploads/2020/09/Venus-Mariner10-2020-600.jpg",
+              width="163",
+              height="163"></br>
+              <span>Tu peso es:</span>
+              <input type=»text» id="3" readonly=»readonly» />
+          </div>
+          <div class="box">
+              <h3>LUNA</h3>
+              <span class="gravedad">G: 1.62 m/s</span>
+              <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Cara-oculta-luna.jpg/640px-Cara-oculta-luna.jpg",
+              width="163",
+              height="163"></br>
+              <span>Tu peso es:</span>
+              <input type=»text» id="4" readonly=»readonly» />
+          </div>
+          <div class="box">
+              <h3>MARTE</h3>
+              <span class="gravedad">G: 3.71 m/s</span>
+              <br><img src="https://static8.depositphotos.com/1186840/839/i/450/depositphotos_8390815-stock-photo-red-planet.jpg",
+              width="163",
+              height="163"></br>
+              <span>Tu peso es:</span>
+              <input type=»text» id="5" readonly=»readonly» />
+          </div>
+          <div class="box">
+              <h3>CERES</h3>
+              <span class="gravedad">G: 0.27 m/s</span>
+              <br><img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Ceres_-_RC3_-_Haulani_Crater_%2822381131691%29.jpg",
+              width="163",
+              height="163"></br>
+              <span>Tu peso es:</span>
+              <input type=»text» id="6" readonly=»readonly» />
+          </div>    
+          <div class="box">
+              <h3>JUPITER</h3>
+              <span class="gravedad">G: 24.7 m/s</span>
+              <br><img src="https://preview.free3d.com/img/2014/09/2279353179957102204/6e5rs7u7-900.jpg",
+              width="163",
+              height="163"></br>
+              <span>Tu peso es:</span>
+              <input type=»text» id="7" readonly=»readonly» />
+          </div>
+          <div class="box">
+              <h3>SATURNO</h3>
+              <span class="gravedad">G: 10.44 m/s</span>
+              <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Saturn_Storm.jpg/260px-Saturn_Storm.jpg",
+              width="163",
+              height="163"></br>
+              <span>Tu peso es:</span>
+              <input type=»text» id="8" readonly=»readonly» />
+          </div>
+          <div class="box">
+              <h3>URANO</h3>
+              <span class="gravedad">G: 8.87 m/s</span>
+              <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Uranus2.jpg/800px-Uranus2.jpg",
+              width="163",
+              height="163"></br>
+              <span>Tu peso es:</span>
+              <input type=»text» id="9" readonly=»readonly» />
+          </div>
+          <div class="box">
+              <h3>NEPTUNO</h3>
+              <span class="gravedad">G: 11.15 m/s</span>
+              <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg/800px-Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg",
+              width="163",
+              height="163"></br>
+              <span>Tu peso es:</span>
+              <input type=»text» id="10" readonly=»readonly» />
+          </div>
+          <div class="box">
+              <h3>PLUTÓN</h3>
+              <span class="gravedad">G: 0.62 m/s</span>
+              <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pluto_in_True_Color_-_High-Res.jpg/250px-Pluto_in_True_Color_-_High-Res.jpg",
+              width="163",
+              height="163"></br>
+              <span>Tu peso es:</span>
+              <input type=»text» id="11" readonly=»readonly» />
+          </div>
+          <div class="box">
+              <h3>HAUMEA</h3>
+              <span class="gravedad">G: 0.401 m/s</span>
+              <br><img src="http://queloniovolador.com/wp-content/uploads/2021/09/202109202-Captura.png",
+              width="163",
+              height="163"></br>
+              <span>Tu peso es:</span>
+              <input type=»text» id="12" readonly=»readonly» />
+          </div>
+          <div class="box">
+            <h3>MAKEMAKE</h3>
+            <span class="gravedad">G: 0.5 m/s</span>
+            <br><img src="http://resumende.com/img/gallery/original/6150-2017-03-30-021111.jpg",
+              width="163",
+              height="163"></br>
+            <span>Tu peso es:</span>
+            <input type=»text» id="13" readonly=»readonly» />
+          </div>
+          <div class="box">
+            <h3>ERIS</h3>
+            <span class="gravedad">G: 0.82 m/s</span>
+            <br><img src="https://www.65ymas.com/uploads/s1/91/38/53/eris-frustrado-decimo-planeta-sistema-solar-cumple-17-anos_1_621x621.jpeg",
+              width="163",
+              height="163"></br>
+            <span>Tu peso es:</span>
+            <input type=»text» id="14" readonly=»readonly» />
+          </div>       
+    </div>
+    <script src="js.js"></script>
+  </body>
+  </html>
