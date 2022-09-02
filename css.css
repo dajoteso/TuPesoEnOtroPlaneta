@@ -5,6 +5,7 @@ body
   background-size: cover;
   font-family: cursive;
   text-align: center;
+  color: white
 }
 
 body::-webkit-scrollbar{
@@ -22,9 +23,4 @@ body::-webkit-scrollbar-thumb{
     grid-gap: 70px;
     padding: 50px;
     margin: 0 auto;
-}
-
-button{
-    background-color: #000000; 
-    
 }
