@@ -25,4 +25,7 @@ body::-webkit-scrollbar-thumb{
 }
 button{
     background-color: #000000;
+   font-family:helvetica;
+    text-align: center;
+    color: white;
 }
